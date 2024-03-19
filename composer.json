@@ -1,0 +1,16 @@
+{
+    "name": "dizitcodes/panel-leads",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dizit\\PanelLeads\\": "src/"
+        }
+    },
+    "extra": {
+        "codeigniter4": {
+            "commands": {
+                "Dizit\\PanelLeads\\Commands\\SetupCommand": "panel:leads-install"
+            }
+        }
+    }
+}
